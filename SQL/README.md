@@ -11,14 +11,14 @@ Akses data dari [BigQuery Sandbox](https://console.cloud.google.com/bigquery) de
 - Table: `bikeshare_trips` & `bikeshare_stations`
 
 Untuk mempermudah pengerjaan, berikut kolom-kolom yang bisa difokuskan dari masing-masing tabel:
-- Table `bikeshare_trips`: `trip_id`, `start_date`, `subscriber_type`, `start_station_name`, dan `start_station_id`
-- Table `bikeshare_stations`: `station_id`, `name`, dan `landmark` 
+- Table `bikeshare_trips` : `trip_id`, `start_date`, `subscriber_type`, `start_station_name`, dan `start_station_id`
+- Table `bikeshare_stations` : `station_id`, `name`, dan `landmark` 
 
 Pada kasus ini, kamu diminta untuk membandingkan tingkat peminjaman sepeda dari `subcriber_type`: `Subscriber` di kota `Redwood City` untuk periode Q1 dan Q2 tahun 2016.
 
 Hints:
 - Lakukan join pada kedua tabel.
-- Terapkan kondisional pada `subcriber_type` dan `Landmark`.
+- Terapkan kondisional pada `start_date`, `subcriber_type`, dan `landmark`.
 - Hitung banyak kemunculan entry data untuk masing-masing periode (1 Query untuk 1 periode).
 
 ---
