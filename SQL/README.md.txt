@@ -5,7 +5,7 @@ _Non-Graded Assignment ini dibuat guna mengevaluasi pembelajaran pada Hacktiv8 D
 ---
 ## Assignment Instructions
 
-Akses data dari BigQuery Google Cloud Platform dengan ketentuan: 
+Akses data dari [BigQuery Sandbox](https://console.cloud.google.com/bigquery) dengan ketentuan: 
 - Project_id: `bigquery-public-data`
 - Dataset: `san_francisco`
 - Table: `bikeshare_trips` & `bikeshare_stations`
