@@ -1,4 +1,4 @@
-CREATE TABLE `chicago_taxi_trips` (`unique_key` VARCHAR(80),`trip_start_timestamp` VARCHAR(30),`trip_end_timestamp` VARCHAR(30),`trip_seconds` MEDIUMINT,`trip_miles` FLOAT,`fare` FLOAT,`tips` FLOAT,`tolls` FLOAT,`extras` FLOAT,`trip_total` FLOAT,`payment_type` VARCHAR(20),`company` VARCHAR(10));
+CREATE TABLE `chicago_taxi_trips` (`unique_key` VARCHAR(80),`trip_start_timestamp` TIMESTAMP,`trip_end_timestamp` TIMESTAMP,`trip_seconds` MEDIUMINT,`trip_miles` FLOAT,`fare` FLOAT,`tips` FLOAT,`tolls` FLOAT,`extras` FLOAT,`trip_total` FLOAT,`payment_type` VARCHAR(20),`company` VARCHAR(10));
 
 INSERT INTO `chicago_taxi_trips` (`unique_key`,`trip_start_timestamp`,`trip_end_timestamp`,`trip_seconds`,`trip_miles`,`fare`,`tips`,`tolls`,`extras`,`trip_total`,`payment_type`,`company`) VALUES 
  ('8c15925c52b37ca40b16eacebbcf278f7c07a529','2016-11-19 07:45:00.000000 UTC','2016-11-19 07:45:00.000000 UTC','2','0.0','0.01','0.0',null,'0.0','0.01','Cash','303 Taxi'), 
