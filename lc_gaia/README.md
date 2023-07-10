@@ -37,6 +37,7 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 1. buat kolom baru, menunjukkan representasi keterangan waktu dalam hari dengan ketentuan berikut. (pagi, siang, sore, malam, dini hari)
 
 <div align="center">
+
 |keterangan waktu|jam|	
 |--|--|
 |Pagi|04:00 - 09:59|
@@ -44,6 +45,7 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 |Sore|16:00 - 18:59|
 |Malam|19:00 - 23:59|
 |Dini Hari|00:00 - 03:59|
+
 </div>
 
 2. Berapa total jarak perjalanan yang dicapai perusahaan Federway Int. pada tahun 2022? (Gunakan pandas query untuk menjawab soal no. 2)
