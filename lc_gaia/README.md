@@ -49,6 +49,7 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 **Hints**
 
 Untuk melakukan ekstraksi waktu (jam) dari tipe data *datetime* dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
+
 ---
 ## Assignment Submission
 
