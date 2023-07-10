@@ -32,7 +32,11 @@ Jawab masing-masing pertanyaan ini dengan 1 query:
 
 Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di bawah ini:
 
+<div align="center">
+
 `SELECT * FROM taxi_trips`
+
+</div>
 
 1. buat kolom baru, menunjukkan representasi keterangan waktu dengan ketentuan berikut:
 
@@ -50,7 +54,7 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 
 2. Berapa total jarak perjalanan yang dicapai perusahaan Federway Int. pada tahun 2022? (Gunakan pandas query untuk menjawab soal no. 2)
 
-**Hints**
+**Hints:**
 
 Untuk melakukan ekstraksi waktu (jam) dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
 
