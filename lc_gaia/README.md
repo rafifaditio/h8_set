@@ -34,11 +34,11 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 
 `SELECT * FROM taxi_trips`
 
-1. buat kolom baru, menunjukkan representasi keterangan waktu dalam hari dengan ketentuan berikut. (pagi, siang, sore, malam, dini hari)
+1. buat kolom baru, menunjukkan representasi keterangan waktu dengan ketentuan berikut:
 
 <div align="center">
 
-|keterangan waktu|jam|	
+|Keterangan Waktu|Jam|	
 |--|--|
 |Pagi|04:00 - 09:59|
 |Siang|10:00 - 15:59|
@@ -52,7 +52,7 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 
 **Hints**
 
-Untuk melakukan ekstraksi waktu (jam) dari tipe data *datetime* dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
+Untuk melakukan ekstraksi waktu (jam) dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
 
 ---
 ## Assignment Submission
