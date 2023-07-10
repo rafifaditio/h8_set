@@ -24,14 +24,11 @@ Kamu adalah seorang Data Analyst yang sedang melakukan analisa data perjalanan d
 Jawab masing-masing pertanyaan ini dengan 1 query:
 
 1. Apa saja nama perusahaan yang terdapat dalam data?
-
 2. Berapa nilai minimum dan maksimum dari waktu pengambilan data?
-
 3. Bandingkan jumlah banyaknya perjalanan antara seluruh perusahaan di setiap tahun yang ada?
-
 4. Perusahaan mana yang memiliki tarif perjalanan per km termurah? (Narasikan asumsi dan pertimbangan langkahmu dalam menjawab pertanyaan ini, narasikan insightnya)
 
-### Problem 2 - SQL
+### Problem 2 - Pandas
 
 Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di bawah ini:
 
@@ -50,16 +47,17 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 2. Berapa total jarak perjalanan yang dicapai perusahaan Federway Int. pada tahun 2022? (Gunakan pandas query untuk menjawab soal no. 2)
 
 **Hints**
-Untuk melakukan ekstraksi waktu (jam) dari tipe data *datetime* dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
 
+Untuk melakukan ekstraksi waktu (jam) dari tipe data *datetime* dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
+---
 ## Assignment Submission
 
-- Simpan assignment pada sesi ini dengan nama `h8dsft_P0W2_<nama-student>.ipynb`, misal `h8dsft_P0W2_raka_ardhi.ipynb`.
+- Simpan assignment pada sesi ini dengan nama `h8dsft_P0LC2_<nama-student>.ipynb`, misal `h8dsft_P0LC2_raka_ardhi.ipynb`.
 - Push Assigment yang telah kalian buat ke repository Github Classroom masing-masing student.
-
+---
 ## Assignment Objectives
 
-*Graded Challenge 2* ini dibuat guna mengevaluasi SQL dan Pandas sebagai berikut:
+*Live Code 2* ini dibuat guna mengevaluasi SQL dan Pandas sebagai berikut:
 
 - Mampu melakukan analisa data di SQL.
 - Mampu melakukan pengambilan data dari SQL.
