@@ -8,11 +8,11 @@ _Graded Challenge ini dibuat guna mengevaluasi pembelajaran pada Hacktiv8 Data S
 
 ## Dataset Description
 
-* Pada graded challenge ini, data diakses dari BigQuery dengan ketentuan:
+Pada graded challenge ini, data diakses dari BigQuery dengan ketentuan:
 
-- **Project_id**: hacktiv8-ftds-challenge
-- **Dataset**   : livecode_02
-- **Tabel**     : taxi_fare
+- **Project_id**: `hacktiv8-ftds-challenge`
+- **Dataset**   : `livecode_02`
+- **Tabel**     : `taxi_fare`
 
 ---
 ---
