@@ -4,11 +4,11 @@ _Graded Challenge ini dibuat guna mengevaluasi pembelajaran pada Hacktiv8 Data S
 
 ## Dataset Description
 
-* Pada graded challenge ini, data diakses menggunakan ----.
+* Pada graded challenge ini, data diakses dari BigQuery dengan ketentuan:
 
-```{attention}
-Perhatikan petunjuk penggunaan dataset!
-```
+- **Project_id**: hacktiv8-ftds-challenge
+- **Dataset**   : livecode_02
+- **Tabel**     : taxi_fare
 
 ---
 ---
@@ -34,7 +34,7 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 
 <div align="center">
 
-`SELECT * FROM taxi_trips`
+`SELECT * FROM hacktiv8-ftds-challenge.livecode_02.taxi_fare`
 
 </div>
 
@@ -54,9 +54,11 @@ Pengambilan data dari SQL untuk diolah di pandas **wajib** menggunakan query di 
 
 2. Berapa total jarak perjalanan yang dicapai perusahaan Federway Int. pada tahun 2022? (Gunakan pandas query untuk menjawab soal no. 2)
 
-**Hints:**
+>**Hints:**
 
-Untuk melakukan ekstraksi waktu (jam) dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
+>- Dalam mengerjakan soal Pandas poin 1, Untuk melakukan ekstraksi waktu (jam) dapat memanfaatkan `pd.Series.dt.hour`, pastikan kolom yang akan di-ekstrak sudah memiliki format *datetime*.
+>- Setelah melakukan ekstraksi waktu (jam), lakukan looping dan kondisional untuk setiap entry data sesuai ketentuan kondisi keterangan waktu diatas.
+>- Simpan looping dan kondisional ke dalam list dan convert menjadi kolom baru.
 
 ---
 ## Assignment Submission
